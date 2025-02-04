@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Maszyna szyfrująca | Elip</title>
+    <title>Opis Postaci</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
-  <body>
-    <div class="container">
-      <h1><b>Maszyna szyfrująca</b></h1>
-      <label for="message">Wiadomość :</label>
-      <textarea id="message" rows="5" cols="50"></textarea>
-      <label for="key">Klucz :</label>
-      <input type="text" id="key" value="" size="50" />
-      <div class="buttons">
-        <button id="enc-btn">Odszyfruj</button>
-        <button id="dec-btn">Zaszyfruj</button>
-      </div>
-
-      <h2>Wynik:</h2>
-      <div id="result"></div>
+  <body
+    class="bg-gray-900 text-white flex items-center justify-center min-h-screen"
+  >
+    <div class="bg-gray-800 p-8 rounded-xl shadow-lg max-w-lg text-center">
+      <img
+        src="elo.PNG"
+        alt="Postać"
+        class="w-32 h-32 mx-auto rounded-full border-4 border-gray-700 shadow-md"
+      />
+      <h1 class="text-2xl font-bold mt-4">Viktoria</h1>
+      <p class="text-gray-400 text-sm mt-2">Ukraińska wybranka Kuby</p>
+      <p class="mt-4 text-gray-300">Największ cipa na świecie</p>
+      <button
+        class="mt-4 bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg transition"
+      >
+        Więcej informacji
+      </button>
     </div>
-
-    <script src="index.js"></script>
   </body>
 </html>
